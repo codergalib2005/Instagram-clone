@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "61505379411",
+    "project_id": "instagram-clone-79ad0",
+    "storage_bucket": "instagram-clone-79ad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61505379411:android:24f5ba587c5fba479cfaa6",
+        "android_client_info": {
+          "package_name": "com.edureminder.instagramclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc4q30w62UVVQ8_ZJy0zsJavVqmXQ52h4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

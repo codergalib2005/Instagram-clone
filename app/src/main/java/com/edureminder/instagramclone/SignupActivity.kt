@@ -74,5 +74,9 @@ class SignupActivity : AppCompatActivity() {
         binding.addProfileImage.setOnClickListener{
             launcher.launch("image/*")
         }
+        binding.login.setOnClickListener{
+            startActivity(Intent(this@SignupActivity, LoginActivity::class.java))
+            finish()
+        }
     }
 }

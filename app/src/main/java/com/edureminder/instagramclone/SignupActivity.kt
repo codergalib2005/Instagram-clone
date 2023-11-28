@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Html
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
@@ -38,6 +39,10 @@ class SignupActivity : AppCompatActivity() {
         binding = ActivitySignupBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
+        val text = "<font color=#555>Already have an Account</font> <font color=#1E88E5>Login</font>"
+
+        binding.login.setText(Html.fromHtml(text))
 
          user = UserModel()
 
